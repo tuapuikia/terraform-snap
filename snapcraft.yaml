@@ -13,9 +13,6 @@ apps:
   terraform:
     command: terraform
     plugs: [home, network, network-bind]
-  terraform-provider-zabbix:
-    command: terraform-provider-zabbix
-    plugs: [home, network, network-bind]
 
 parts:
   terraform:
