@@ -27,11 +27,11 @@ parts:
     go-buildtags: [dev]
     after: [go]
   terraform-provider-zabbix:
-    source: https://github.com/dainis/terraform-provider-zabbix.git
+    source: https://github.com/tuapuikia/terraform-provider-zabbix.git
     source-tag: master
     plugin: go
-    go-importpath: github.com/dainis/terraform-provider-zabbix
-    go-packages: [github.com/dainis/terraform-provider-zabbix]
+    go-importpath: github.com/tuapuikia/terraform-provider-zabbix
+    go-packages: [github.com/tuapuikia/terraform-provider-zabbix]
     go-buildtags: [master]
     after: [go]
   go:
